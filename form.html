@@ -1,0 +1,63 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>Document</title>
+    <h1>FORM</h1>
+    <style>
+      h1{
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <table>
+      <form action="/register" method="POST">
+        <label for="name">Name : </label>
+        <input
+          type="text"
+          id="name"
+          name="name "
+          placeholder="Enter your name"
+          minlength="2"
+          maxlength="9"
+        />
+        <br />
+        <lable for="Password"> Password : </lable>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Your password"
+        />
+        <br />
+        <label for="password"> Re Enter password: </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Re Enter Your Password"
+        />
+        <br />
+        <label for="Gender"> Gender</label>
+        <br />
+        <label for="male"> male </label>
+        <input type="radio" name="male" id="male" />
+        <label for="Female"> Female</label>
+        <input type="radio" name="Female" id="Female" />
+        <br />
+        <select name="city" id="city">
+          <option value="Hydrabad">Hydrabad</option>
+          <option value="Gorakhpur" selected>Gorakhpur</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+        <br />
+        <input type="checkbox" name="concept" id="concent" />
+        <label for="checkbox"> Agree tearm and condition</label>
+      </form>
+    </fieldset>
+    
+      
+  </table>
+  </body>
+</html>
